@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONTBLANC</title>
+    <!-- bxslide cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- 스ㅎ와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- fullpage library -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+     <!-- 모바일메뉴버튼 -->
+    <a href="#" class="mb-bt" id="mb-bt">
+        <span class="line"></span>
+    </a>
+    <!-- 모바일메뉴바 -->
+    <div class="mb-nav">
+        <div class="mb-nav-top clear">
+            <a href="#">Login</a>
+            <a href="#">Join</a>
+        </div>
+        <div class="mb-nav-main">
+            <ul class="mb-menu">
+                <li>
+                    <a href="#" class="mb-mainmenu">Shopping</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">Luxury Pens</a></li>
+                        <li><a href="#">Bags &amp; Leather Goods</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Headphones</a></li>
+                        <li><a href="#">Fragrances</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Gifts</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Collection</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">Montblanc X Ferrari</a></li>
+                        <li><a href="#">New Sartorial</a></li>
+                        <li><a href="#">Nimsdai Purja</a></li>
+                        <li><a href="#">Glacier</a></li>
+                        <li><a href="#">What Moves You,</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">About Montblanc</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">Heritage</a></li>
+                        <li><a href="#">Find watchmaking</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Craftsmanship</a></li>
+                        <li><a href="#">Product care</a></li>
+                        <li><a href="#">Montblanc Haus</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Membership</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Tracking shipment</a></li>
+                        <li><a href="#">Check out</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Find a boutique</a>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Customer Service</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 모바일 메뉴마스크 -->
+    <div class="mb-menu-mask"></div>
+    <!-- 반응형 헤더 영역 -->
+    <div class="mb-header ">
+        <div class="mini-logo">
+            <a href="#">
+                <img src="images/logo/logo-m.png" alt="">
+            </a>
+        </div>
+    </div> 
+    <header id="header"> 
+            <h1 class="logo">
+                <a href="#">
+                    <!-- <img src="images/logo/logo.jpg" alt=""> --> 
+                </a>
+            </h1>
+            <div class="search">
+                <input type="text">
+                <img src="images/icon/icon-glass1.png" alt="돋보기모양">
+            </div>
+            <div class="gnb">
+                <ul class="depth1">
+                    <li class="main_menu">  
+                        <a href="#">Shopping</a>
+                        <ul class="depth2">
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Luxury Pens
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Bags &amp; Leather Goods
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Watches
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Headphones
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Fragrances
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Gifts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main_menu">  
+                        <a href="#">Collection</a>
+                        <ul class="depth2">
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Montblanc X Ferrari
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    New Sartorial
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Nimsdai Purja
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Glacier
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    What Moves You,
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main_menu">  
+                        <a href="#">About Montblanc</a>
+                        <ul class="depth2">
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Heritage
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Find watchmaking
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Sustainability
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Craftsmanship
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Product care
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Montblanc Haus
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main_menu">  
+                        <a href="#">Membership</a>
+                        <ul class="depth2">
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Promotion
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Tracking shipment
+                                </a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">
+                                    Check out
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main_menu">  
+                        <a href="#">Find a boutique</a>
+                    </li>
+                    <li class="main_menu">  
+                        <a href="#">Customer Service</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mypage">
+                <div class="icon">
+                    <a href="#"><img src="images/icon/free-icon-user-3856336.png" alt=""></a>
+                    <a href="#"><img src="images/icon/free-icon-love-2938590.png" alt=""></a>
+                    <a href="#"><img src="images/icon/shopping-bag.png" alt=""></a>
+
+                </div>
+            </div>
+        </header>
+        <main id="fullpage">    
+            <section class="section banner">   
+            <div class="slide">
+                <a href="#">
+                    <video src="images/banner/mainbanner_video.mp4" autoplay muted></video>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="images/banner/banner2.jpg" alt="">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="images/banner/banner3.png" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="section new_arrivals">
+            <div class="inner">
+                <h2>NEW ARRIVALS</h2>
+                <div class="new_items">
+                    <div class="new_item">
+                        <a href="#">
+                            <img src="images/new/new1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="new_item">
+                        <a href="#"><img src="images/new/new2.jpg" alt=""></a>
+                    </div>
+                    <div class="new_item">
+                        <a href="#"><img src="images/new/new3.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section" id="category">
+            <div class="best_content">
+                <h2>BEST CATEGORY</h2>
+            </div>
+            <div class="category_box">
+                <div class="box">
+                    <a href="#"><p>PEN</p></a>
+                    <div>
+                        <a href="#">
+                            <p>more</p>
+                            <img src="images/category/pen.webp" alt="">
+                            <img class="hover" src="images/category/pen_hover.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <p>FRAGRANCES</p>
+                    </a>
+                    <div>
+                        <a href="#">
+                            <p>more</p>
+                            <img src="images/category/perfume.webp" alt="">
+                            <img class="hover" src="images/category/perfume2.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><p>BAG</p></a>
+                    <div>
+                        <a href="#">
+                            <p>more</p>
+                            <img src="images/category/bag.avif" alt="">
+                            <img class="hover" src="images/category/bag_h.avif" alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><p>WATCH</p></a>
+                    <div>
+                        <a href="#">
+                            <p>more</p>
+                            <img src="images/category/watch2.webp" alt="">
+                            <img class="hover" src="images/category/watch_h.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="collection">
+            <div class="content">
+                <h2>몽블랑 사토리얼 컬렉션 X 마크 메이커 이진욱</h2>
+                <p>몽블랑의 대표적인 레더 컬렉션의 재탄생</p>
+            </div>
+            <div class="collection_box cover">
+                <div class="mont_sartorial left">
+                    <a href="#">
+                        <img src="images/collection/coll_img.png" alt="">
+                    </a>
+                    <div class="collection_more">
+                        <a href="#"><p>컬렉션 보러가기</p></a>
+                        <a href="#"><span>백팩</span></a>
+                        <a href="#"><span>도트백</span></a>
+                        <a href="#"><span>볼링백</span></a>
+                        <a href="#"><span>엔젤로프 파우치</span></a>
+                        <a href="#"><span>미니백</span></a>
+                    </div>
+                </div>
+                <div class="mont_sartorial right">
+                    <a href="#">
+                        <img src="images/collection/coll_img2.png" alt="">
+                    </a>
+                    <div class="collection_more">
+                        <a href="#"><p>컬렉션 보러가기</p></a>
+                        <a href="#"><span>백팩</span></a>
+                        <a href="#"><span>도트백</span></a>
+                        <a href="#"><span>볼링백</span></a>
+                        <a href="#"><span>엔젤로프 파우치</span></a>
+                        <a href="#"><span>미니백</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="gift_section">
+            <div class="content-gift">
+                <h2>GIFT FOR HER</h2>
+                <p>당신의 마음을 전하세요</p>
+            </div>
+            <div class="inner">
+                <div class="swiper sw-basic">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/head.png" alt="">
+                                <p>몽블랑 MB01 오버 이어 헤드폰</p>
+                                <p>830,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/her1.png" alt="">
+                                <p>시그니처 우먼 EDP 90ML</p>
+                                <p>145,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/pen1.png" alt="">
+                                <p>헤리티지 루즈 &amp; 느와 베이비 만년필 </p>
+                                <p>1,030,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/watch1.png" alt="">
+                                <p>몽블랑 보헴 여성 오토메틱 시계</p>
+                                <p>6,250,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/sun1.png" alt="">
+                                <p>몽블랑 MB0080S 선글라스</p>
+                                <p>450,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/forher/watchw1.png" alt="">
+                                <p>몽블랑 보헴 데이 앤 나이트 30mm</p>
+                                <p>5,580,000</p>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="btn-next">
+                    <div class="material-icons">
+                        <a href="#">
+                            <img src="images/icon/next.png" alt="">
+                            <img class="chg_color" src="images/icon/next-hover.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                 <div class="btn-prev">
+                    <div class="material-icons">
+                        <a href="#">
+                            <img src="images/icon/prev.png" alt="">
+                            <img class="chg_color" src="images/icon/prev-hover2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="container">
+                <div class="left_content">
+                    <div class="subscription">
+                        <p>Montblanc Subscription application</p>
+                        <form action="#">
+                            <label for="#">Address : </label>
+                            <input type="text">
+                        </form>
+                        <button>Submit</button>
+                        
+                    </div>
+                    <address>
+                        <p>㈜ 리치몬트 코리아 대표이사: 이진원</p>
+                        <p>서울 중구 퇴계로 100 스테이트타워 남산 (04631)</p>
+                        <p>몽블랑 고객센터: 1877-5408/ service.korea@montblanc.co.kr </p>
+                        <p>사업자 등록번호: 102-81-41612 통신판매 신고번호: 2017-서울중구-1264 (사업자 정보확인)</p>
+                        <p>개인정보보호책임자: 서신강 </p>
+                        <p>호스팅 서비스: Richemont International SA </p>
+                    </address>
+                </div>
+                <div class="right_content">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">쇼핑서비스</a>
+                            <ul class="submenu" >
+                                <li><a href="#">운송 및 배송</a></li>
+                                <li><a href="#">반품 및 보증</a></li>
+                                <li><a href="#">선물 포장</a></li>
+                                <li><a href="#">주문조회</a></li>
+                                <li><a href="#">환불신청서</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">서비스</a>
+                            <ul class="submenu">
+                                <li><a href="#">고객서비스</a></li>
+                                <li><a href="#">리필 파인더</a></li>
+                                <li><a href="#">제품관리</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                                <li><a href="#">문의하기</a></li>
+                                <li><a href="#">기업고객선물</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">결제방법</a>
+                            <ul class="submenu">
+                                <span><a href="#"><img src="images/icon/icon5.png" alt=""></a></span>
+                                <span><a href="#"><img src="images/icon/icon6.png" alt=""></a></span>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">소개</a>
+                            <ul class="submenu">
+                                <li><a href="#">몽블랑소개</a></li>
+                                <li><a href="#">기업경영구조</a></li>
+                                <li><a href="#">채용</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">부티크</a>
+                            <ul class="submenu">
+                                <li><a href="#">부티크(매장)찾기</a></li>
+                                <li><a href="#">부티크 예약</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">팔로우하기</a>
+                            <ul class="sns submenu">
+                               <li ><a href="#"><img src="images/icon/face.png" alt=""></a></li>
+                               <li><a href="#"><img src="images/icon/finter.png" alt=""></a></li>
+                               <li><a href="#"><img src="images/icon/youtube.png" alt=""></a></li>
+                               <li><a href="#"><img src="images/icon/insta.png" alt=""></a></li>
+                               <li><a href="#"><img src="images/icon/twitter.png" alt=""></a></li>
+                               <li><a href="#"><img src="images/icon/snapch.png" alt=""></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    
+</body>
+</html>
